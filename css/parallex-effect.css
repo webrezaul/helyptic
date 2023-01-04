@@ -1,0 +1,127 @@
+.parallex-effect {
+	position: fixed;
+	top: 65%;
+	left: 0;
+	background: transparent;
+	width: 100%;
+	z-index: 99;
+	display: none;
+}
+.btn-wrap {
+	margin: 10px 0px;
+	text-align: center;
+}
+.btn {
+	font-family: sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.btn-trapezoid-outline {
+	transform-style: preserve-3d;
+	height: 190px;
+	width: 90%;
+	border-bottom: 20px solid #8db8cb42;
+	transform: perspective(900px) rotateX(30deg) translateZ(20px) translateY(2px);
+	-webkit-backface-visibility: hidden;
+	transition: all .3s ease-out;
+	border-radius: 20px;
+	background: linear-gradient(90.65deg, #8db8cb2a 8.11%, #ffffff3a 48.26%, #b0cce28c 69.86%, #95bdd470 100.25%);
+	backdrop-filter: blur(60px);
+}
+.laptop img {
+	position: fixed;
+	left: 24%;
+	top: 32.7%;
+	width: 42.72%;
+	z-index: 999;
+}
+.laptop-screen img {
+	position: fixed;
+	left: 34.05%;
+	top: 36.7%;
+	z-index: 9999;
+	width: 24.2%;
+	display: none;
+}
+@media screen and (max-width:1666px) {
+	.laptop-screen img {
+		top: 37.3%;
+	}
+	.parallex-effect {
+		left: -40px;
+	}
+	.btn-trapezoid-outline {
+		width: 83%;
+		top: 63%;
+		border-bottom: 14px solid #8db8cb42;
+	}
+}
+
+@media screen and (max-width:1500px) {
+
+	.laptop img {
+		position: fixed;
+		left: 24%;
+		top: 37.7%;
+		width: 42.72%;
+		z-index: 999;
+	}
+
+	.laptop-screen img {
+		position: fixed;
+		left: 34.09%;
+		top: 41.48%;
+		z-index: 9999;
+		width: 24.2%;
+		display: none;
+	}
+
+}
+
+@media screen and (max-width:1366px) {
+	.laptop img {
+		top: 35%;
+		left: 13%;
+	}
+	.laptop-screen img {
+		top: 39.31%;
+		left: 23.08%;
+	}
+	.parallex-effect {
+		left: -40px;
+	}
+	.btn-trapezoid-outline {
+		transform-style: preserve-3d;
+		height: 190px;
+		width: 85%;
+		top: 63%;
+		border-bottom: 14px solid #8db8cb42;
+	}
+}
+
+
+@media screen and (max-width:1024px) {
+
+	.parallex-effect {
+		top: 65%;
+		left: 0;
+		width: 100%;
+	}
+
+	.laptop img {
+		position: fixed;
+		left: 9%;
+		top: 53.7%;
+		width: 48.72%;
+		z-index: 999;
+	}
+	.laptop-screen img {
+		position: fixed;
+		left: 20.5%;
+		top: 55.5%;
+		z-index: 9999;
+		width: 27.5%;
+		display: none;
+	}
+
+}

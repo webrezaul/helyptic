@@ -1,0 +1,1526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!--============== TITLE , ICONS & MATA TAGS ===================-->
+	<meta charset="utf-8">
+	<meta content=" width=device-width, initial-scale=1" name="viewport">
+	<meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+	<title>Services - Helyptic.com</title>
+	<link href="./images/logo/favicon.png" rel="icon" sizes="32x32" type="image/gif">
+	<!--============== BOOTSTRAP & j Query ===================-->
+	<link href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css' rel='stylesheet'>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<!--============== FADE ANIMATIONS ===================-->
+	<link href='./aos/css/aos.css' rel='stylesheet'>
+	<!--============== FONTAWESOME ===================-->
+	<script src="https://use.fontawesome.com/5338a3d078.js"></script>
+	<link href="./fonts/font-awesome/css/all.css" rel="stylesheet">
+	<!--============== CUSTOM STYLE SHEETS ===================-->
+	<link href="./css/controls.css" rel="stylesheet">
+	<link href="./css/app.css" rel="stylesheet">
+	<link href="./css/services.css" rel="stylesheet">
+	<!--================================= GOOGLE reCAPTCHA ====================================-->
+	<script async defer src="https://www.google.com/recaptcha/api.js"></script>
+	<!--============== Global site tag (gtag.js) - Google Analytics ===================-->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-TX643P4P09">
+	</script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'G-TX643P4P09');
+	</script>
+	<style>
+		@media screen and (max-width:768px) {
+			.tabet {
+				background-image: url("./images/services/tab/banner/services-tab-bg.png");
+			}
+		}
+	</style>
+</head>
+
+<body>
+	<!--============== SCROLL TO TOP ===============-->
+	<a href="#" id="btn-scroll"><i class="fas fa-angle-up"></i></a>
+	<!--================================= NAVBAR ====================================-->
+	<nav class="nav" id="nav-contact-us">
+		<div class="container-fluid border-gradient">
+			<div class="logo"><img alt="Helyptic Logo" onclick="location.href = 'Index.html';"
+					src="./images/logo/logo.png" style="cursor: pointer; margin-top: -8px;"></div>
+			<div class="main_list" id="mainListDiv">
+				<ul class="navlinks">
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li>
+						<a href="capability.html">Capabilities</a>
+					</li>
+					<li class="active">
+						<a class="active" href="services.html">Services</a>
+					</li>
+					<li id="contact-li">
+						<a href="#contact-me" id="contact-button"><span>Contact</span></a>
+					</li>
+				</ul>
+			</div><span class="navTrigger"><i></i> <i></i> <i></i></span>
+		</div>
+	</nav>
+	<header>
+		<div class="nav-wrapper">
+			<div class="logo-container">
+				<img class="logo" src="./images/logo/logo.png" alt="Logo">
+			</div>
+			<nav style="margin-top: 20px;">
+				<div class="header-additional-icons" id="mobile-p">
+					<ul>
+						<li>
+							<a href="tel:+442037696206"><i class="fa fa-phone"></i></a>
+						</li>
+						<li>
+							<a href="mailto:info@helyptic.com"><i class="fa fa-envelope-open on1920"></i></a>
+						</li>
+						<li>
+							<a href="#">
+								<p>En</p>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<input class="hidden" type="checkbox" id="menuToggle" onclick="NavContainerShownNone()">
+				<label class="menu-btn" for="menuToggle" id="fixit">
+					<div class="menu"></div>
+					<div class="menu menu1"></div>
+					<div class="menu menu2"></div>
+				</label>
+				<div class="nav-container">
+					<ul class="nav-tabs">
+						<li class="nav-tab "><a href="index.html">Home</a></li>
+						<br><br>
+						<li class="nav-tab "><a href="capability.html">Capabiities</a></li>
+						<br><br>
+						<li class="nav-tab "><a href="services.html"
+								style="background: transparent; border: 0px; color: white; ">Services</a></li>
+						<br><br>
+						<li class="nav-tab "><a href="#contact-me" onclick="removeNavContainer()">Contact</a></li>
+						<br><br>
+					</ul>
+					<div class="menu-icons">
+						<ul>
+							<li>
+								<span>Follow Us</span>
+							</li>
+							<li>
+								<a href="https://www.facebook.com/helyptic"><i class="fab fa-facebook-f"></i></a>
+							</li>
+							<li>
+								<a href="https://www.linkedin.com/company/helyptic"><i
+										class="fab fa-linkedin-in"></i></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<!--================================= HERO BANNER ====================================-->
+	<section class="home" id="services-banner">
+		<div id="overlay" style="background-image: url(./images/services/desktop/banner/circuit.svg);"></div>
+		<div class="hero-banner">
+			<div class="container-fluid" style="overflow: hidden;">
+				<div class="row">
+					<div class="col-lg-1 contact-information">
+						<div class="contact-icons" data-aos="fade-up" id="services-contact-icons">
+							<ul>
+								<li>
+									<div class="icon">
+										<a href="tel:+442037696206"><i class="fa fa-phone"></i></a>
+									</div>
+								</li>
+								<li>
+									<div class="icon">
+										<a href="mailto:info@helyptic.com"><i
+												class="fa fa-envelope-open on1920"></i></a>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-4 main-heading-title" id="services-heading-title">
+						<div class="main-title">
+							<h1 id="heading-title">Services</h1>
+						</div>
+					</div>
+					<div class="col-lg-6 capability-hero-content">
+						<div class="row">
+							<div class="col-lg-2"></div>
+							<div class="col-lg-8">
+								<a href="#Services" onclick="one()"
+									style="text-decoration: none; text-decoration: none;">
+									<div class="row hero-1">
+										<div class="col-lg-6">
+											<div class="number-here">
+												<h1>01</h1>
+											</div>
+											<div class="content-here" style="text-align: left;">
+												<h5 style="margin-top: -5px;">Project Study</h5>
+												<p id="hero-1-para">We offer solutions starting from the creation stage
+													of your product through various technological alternatives that meet
+													your cost objectives.</p>
+											</div>
+										</div>
+										<div class="col-lg-6 image-here"><img alt="" class="img-fluid"
+												src="./images/services/desktop/others/hero-1.png"></div>
+									</div>
+								</a>
+							</div>
+							<div class="col-lg-2"></div>
+						</div>
+						<div class="row">
+							<div class="col-lg-2"></div>
+							<div class="col-lg-4">
+								<a href="#Services" onclick="two()" style="text-decoration: none;">
+									<div class="capability-card">
+										<div class="service-id">
+											<h2>02</h2>
+										</div><img alt="" src="./images/services/desktop/others/hero-2.png">
+										<p id="p-heading">Hardware Development</p>
+										<p id="p-para">Helyptic offers a wide variety of sensors and modules that will
+											fulfill your project requirements</p>
+									</div>
+								</a>
+							</div>
+							<div class="col-lg-4" id="card-row-2">
+								<a href="#Services" onclick="three()" style="text-decoration: none;">
+									<div class="capability-card">
+										<div class="service-id">
+											<h2>03</h2>
+										</div><img alt="" src="./images/services/desktop/others/hero-3.png">
+										<p id="p-heading">Embedded Software Development</p>
+										<p id="p-para">For your connected objects, industrial systems and smart Devices,
+											we design and develop custom embedded software.</p>
+									</div>
+								</a>
+							</div>
+							<div class="col-lg-2"></div>
+						</div>
+						<div class="row make-margin-top">
+							<div class="col-lg-2"></div>
+							<div class="col-lg-4">
+								<a href="#Services" onclick="four()" style="text-decoration: none;">
+									<div class="capability-card">
+										<div class="service-id">
+											<h2>04</h2>
+										</div><img alt="" src="./images/services/desktop/others/hero-4.png">
+										<p id="p-heading">Industrialisation</p>
+										<p id="p-para">We provide solutions for your devices and processes used in the
+											creation of your products.</p>
+									</div>
+								</a>
+							</div>
+							<div class="col-lg-4" id="card-row-2">
+								<a href="#Services" onclick="five()" style="text-decoration: none;">
+									<div class="capability-card">
+										<div class="service-id">
+											<h2>05</h2>
+										</div><img alt="" src="./images/services/desktop/others/hero-5.png">
+										<p id="p-heading">Manufacturing</p>
+										<p id="p-para">We manufacture electronic cards and devices based on your
+											specified operations.</p>
+									</div>
+								</a>
+							</div>
+							<div class="col-lg-2"></div>
+						</div>
+					</div><!--
+
+
+                    <div class="col-lg-1 language-icons" id="capability-language-icons" data-aos="fade-up" style="overflow: hidden;">
+                        <div class="languages">
+                            <ul>
+                                <li>
+                                    <a class="active" href="">En</a>
+                                </li>
+                                <li>
+                                    <a href="">Fr</a>
+                                </li>
+                                <li>
+                                    <a href="">Ar</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    -->
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="tabet">
+		<div class="helyptic-Tab-Version-Heading">
+			<h1>Services</h1>
+		</div>
+		<div class="tabet-contact" data-aos="fade-right">
+			<ul>
+				<li>
+					<div class="icon">
+						<a href="tel:+442037696206"><i class="fa fa-phone"></i></a>
+					</div>
+				</li>
+				<li>
+					<div class="icon">
+						<a href="mailto:info@helyptic.com"><i class="fa fa-envelope-open on1920"></i></a>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<!--
+
+        <div class="languages-tabet">
+            <ul>
+                <li>
+                    <a class="active" href="#">En</a>
+                </li>
+                <li>
+                    <a href="#">Fr</a>
+                </li>
+                <li>
+                    <a href="#">Ar</a>
+                </li>
+            </ul>
+        </div>
+
+        -->
+		<!--================================= Services Slider on Tab =====================================-->
+		<div class="container-fluid" id="tab-p" style="position: absolute; bottom: 70px;">
+			<div class="carousel slide" data-ride="carousel" id="myCarousel">
+				<!--== Indicators ==-->
+				<ol class="carousel-indicators" style=" margin-bottom: -60px;">
+					<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+					<li data-slide-to="1" data-target="#myCarousel"></li>
+					<li data-slide-to="2" data-target="#myCarousel"></li>
+				</ol><!--=== Wrapper for slides ===-->
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<div class="row">
+							<div class="col-md-1 col-sm-6 col-xs-12"></div>
+							<div class="col-md-10 col-sm-6 col-xs-12 service-tab-1">
+								<div class="row">
+									<div class="col-md-6 col-sm-6 col-xs-12" style="margin: 0;">
+										<div class="number-here">
+											<h1>01</h1>
+										</div>
+										<div class="content-here" style="text-align: left;">
+											<h5 style="margin-top: -5px;">Project Study</h5>
+											<p id="hero-1-para">We offer solutions starting from the creation stage of
+												your product through various technological alternatives that meet your
+												cost objectives.</p>
+										</div>
+									</div>
+									<div class="col-md-6 col-sm-6 col-xs-12 tab-1-image"><img alt=""
+											src="./images/services/tab/others/service-tab-1.jpg"></div>
+								</div>
+							</div>
+							<div class="col-md-1 col-sm-6 col-xs-12"></div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="row">
+							<div class="col-md-1 col-sm-6 col-xs-12"></div>
+							<div class="col-md-5 col-sm-6 col-xs-12 service-tab-next-2">
+								<div class="service-id">
+									<h2>02</h2>
+								</div><img alt="" src="./images/services/desktop/others/hero-2.png">
+								<p id="p-heading">Hardware Development</p>
+								<p id="p-para" style="margin-top: -15px;">Helyptic offers a wide variety of sensors and
+									modules that will fulfill your project requirements</p>
+							</div>
+							<div class="col-md-5 col-sm-6 col-xs-12 service-tab-next-2">
+								<div class="service-id">
+									<h2>03</h2>
+								</div><img alt="" src="./images/services/desktop/others/hero-3.png">
+								<p id="p-heading">Embedded Software Development</p>
+								<p id="p-para" style="margin-top: -15px;">For your connected objects, industrial systems
+									and smart Devices, we design and develop custom embedded software.</p>
+							</div>
+							<div class="col-md-1 col-sm-6 col-xs-12"></div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="row">
+							<div class="col-md-1 col-sm-6 col-xs-12"></div>
+							<div class="col-md-5 col-sm-6 col-xs-12 service-tab-next-2">
+								<div class="service-id">
+									<h2>04</h2>
+								</div><img alt="" src="./images/services/desktop/others/hero-4.png">
+								<p id="p-heading">Industrialisation</p>
+								<p id="p-para" style="margin-top: -15px;">We provide solutions for your devices and
+									processes used in the creation of your products.</p>
+							</div>
+							<div class="col-md-5 col-sm-6 col-xs-12 service-tab-next-2">
+								<div class="service-id">
+									<h2>05</h2>
+								</div><img alt="" src="./images/services/desktop/others/hero-5.png">
+								<p id="p-heading">Manufacturing</p>
+								<p id="p-para" style="margin-top: -15px;">We manufacture electronic cards and devices
+									based on your specified operations.</p>
+							</div>
+							<div class="col-md-1 col-sm-6 col-xs-12"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--================================= Services Slider on Mobile =====================================-->
+		<div class="container-fluid" id="mobile-p" style="position: absolute; bottom: 70px;">
+			<div class="carousel slide" data-ride="carousel" id="myCarousel">
+				<!--== Indicators ==-->
+				<ol class="carousel-indicators" style=" margin-bottom: -60px;">
+					<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+					<li data-slide-to="1" data-target="#myCarousel"></li>
+					<li data-slide-to="2" data-target="#myCarousel"></li>
+					<li data-slide-to="3" data-target="#myCarousel"></li>
+					<li data-slide-to="4" data-target="#myCarousel"></li>
+				</ol><!--=== Wrapper for slides ===-->
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="mobile-banner-capabilities">
+									<img alt="" src="./images/services/mobile/others/mob-ps.jpg">
+									<div class="number-here-mob">
+										<h1>01</h1>
+									</div><br>
+									<br>
+									<span>Project Study</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="mobile-banner-capabilities">
+									<img alt="" src="./images/services/desktop/others/hero-2.png">
+									<div class="number-here-mob">
+										<h1>02</h1>
+									</div><br>
+									<br>
+									<span>Hardware Development</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="mobile-banner-capabilities">
+									<img alt="" src="./images/services/desktop/others/hero-3.png">
+									<div class="number-here-mob">
+										<h1>03</h1>
+									</div><br>
+									<br>
+									<span>Embedded Software Development</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="mobile-banner-capabilities">
+									<img alt="" src="./images/services/desktop/others/hero-4.png">
+									<div class="number-here-mob">
+										<h1>04</h1>
+									</div><br>
+									<br>
+									<span>Industrialisation</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="mobile-banner-capabilities">
+									<img alt="" src="./images/services/desktop/others/hero-5.png">
+									<div class="number-here-mob">
+										<h1>05</h1>
+									</div><br>
+									<br>
+									<span>Manufacturing</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div><br>
+	<br>
+	<div class="container-fluid">
+		<div class="direction dir-cap">
+			<span><a href="services.html">Services</a>&nbsp; <i class="fas fa-angle-right"></i></span>
+		</div>
+	</div>
+	<div class="section-margin"></div><br>
+	<div id="Services"></div>
+	<div class="section-margin"></div>
+	<div class="our-services">
+		<div class="container-services-nav">
+			<div class="services-nav">
+				<span><a class="one active" href="#Project-Study" id="hardware-development" onclick="one()">Project
+						Study</a></span> <span><a class="two" href="#Hardware-Development" id="#studya"
+						onclick="two()">Hardware Development</a></span> <span><a class="three"
+						href="#Embedded-Software-Development" id="Industrialization-a" onclick="three()">Embedded
+						Software Development</a></span> <span><a class="four" href="#Industrialization"
+						id="Industrialization-a" onclick="four()">Industrialisation</a></span> <span><a class="five"
+						href="#Manufacturing" id="Industrialization-a" onclick="five()">Manufacturing</a></span>
+			</div>
+		</div><br>
+		<br>
+		<br>
+		<div>
+			<div class="control-margin"></div>
+			<!--================================= DESKTOP SERVICES =====================================-->
+			<div class="desktop-services">
+				<div class="container-fluid capabilities-sections" id="one">
+					<div id="embedded-system">
+						<div class="row">
+							<div class="col-lg-3 capability-slide">
+								<div class="row">
+									<div class="col-lg-12 main-service-name">
+										<h3>Project Study</h3>
+										<p>We offer solutions starting from the creation stage of your product through
+											various technological alternatives that meet your cost objectives.</p>
+									</div>
+									<div class="col-lg-12">
+										<div id="requirement-assessment">
+											<h5>Requirement Assessment</h5>
+											<ul>
+												<li>Standard Specification Requirements</li>
+												<li>Needs Assessment</li>
+												<li>Feasibility Study</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-7">
+								<div class="" style="text-align: center;"><img alt="" class="img-fluid"
+										src="./images/services/desktop/others/service-1.png"></div>
+							</div>
+							<div class="col-lg-2 capability-slide">
+								<div class="row">
+									<div class="col-lg-12" id="outershell">
+										<div id="problem-analysis">
+											<h5>Problem Analysis</h5>
+											<ul>
+												<li>Identify the problems</li>
+												<li>Designing the solutions</li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-lg-12">
+										<div id="project-management">
+											<h5>Project Management</h5>
+											<ul>
+												<li>Staying on schedule is crucial to the successful completion of any
+													project</li>
+												<li>risk management and contingency plannings</li>
+												<li>Project budget Management</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="section-margin"></div>
+				<div class="container-fluid capabilities-sections" id="two">
+					<div id="electronic-design">
+						<div class="row">
+							<div class="col-lg-3 capability-slide">
+								<div class="row">
+									<div class="col-lg-12 main-service-name">
+										<h3>Hardware Development</h3>
+										<p>We pledge refinement of your product to guarantee compliance to required
+											solutions.</p>
+									</div>
+									<div class="col-lg-12">
+										<div id="pcb-design">
+											<h5>PCB Design and Fabrication</h5>
+											<p>We use different PCB design softwares to meet your needs: Altium
+												Designer; Cadence Orcad or Allegro; Eagle; KiCAD, which provides very
+												high level PCB design files and full 3D CAD design output capabilities.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-7">
+								<div class="image" style="text-align: center;"><img alt="" class="img-fluid"
+										src="./images/services/desktop/others/service-2.png"></div>
+							</div>
+							<div class="col-lg-2 capability-slide">
+								<div class="row">
+									<div class="col-lg-12">
+										<div id="build-box">
+											<h5>Box Build Services</h5>
+											<p>Not only PCB assembly , but also a complete solution including mechanical
+												parts assembly. We control the entire process from procurement of
+												mechanical parts to meet any customers expectations in terms of quality
+												and reliability.</p>
+										</div>
+									</div>
+									<div class="col-lg-12">
+										<div id="d-printing">
+											<h5>3D Printing</h5>
+											<ul>
+												<li>rapid prototypes, tooling, on-demand parts and low-volume
+													production.</li>
+												<li>Our powerful 3D printing technology produces highly accurate and
+													durable parts capable of being used directly in end-use.</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="section-margin"></div>
+				<div class="container-fluid capabilities-sections" id="three">
+					<div id="software-development">
+						<div class="row">
+							<div class="col-lg-3 capability-slide" style="margin: 0;padding-right: 0;">
+								<div class="row" style="margin: 0;padding: 0;">
+									<div class="col-lg-12 main-service-name">
+										<h3>Embedded Software Development</h3>
+										<p>Helyptic Teams provides Embedded systems development services from concept to
+											prototype and manufacturing phase, with our technologies and solutions we
+											will fit customer needs to match market expectations</p>
+									</div>
+									<div class="col-lg-12">
+										<div id="device-hardware">
+											<h5>Device Hardware design</h5>
+											<ul>
+												<li>Schematics</li>
+												<li>Layout design</li>
+												<li>BOM</li>
+												<li>FPGA Designs (RTL Coding , simulation)</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-7">
+								<div class="image" style="text-align: center;"><img alt="" class="img-fluid"
+										src="./images/services/desktop/others/service-3.png"></div>
+							</div>
+							<div class="col-lg-2 capability-slide">
+								<div class="row">
+									<div class="col-lg-12">
+										<div id="software-design">
+											<h5>Software Design</h5>
+											<ul>
+												<li>GUI</li>
+												<li>Application Software</li>
+												<li>Middleware</li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-lg-12">
+										<div id="firmware-design">
+											<h5>Firmware design</h5>
+											<ul>
+												<li>Board support packages BSP</li>
+												<li>Bootloaders</li>
+												<li>Device drivers</li>
+												<li>Porting</li>
+												<li>Protocol stack</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div><br>
+					<br>
+					<br>
+				</div>
+				<div class="section-margin"></div>
+				<div class="container-fluid capabilities-sections" id="four">
+					<div id="sensors">
+						<div class="row">
+							<div class="col-lg-3 capability-slide main-service-name">
+								<div class="row">
+									<div class="col-lg-12">
+										<h3>Industrialisation</h3>
+										<p>We provide solutions for your devices and processes used in the creation of
+											your products.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-7">
+								<div class="image" style="text-align: center;"><img alt="" class="img-fluid"
+										src="./images/services/desktop/others/service-6.png"></div>
+							</div>
+							<div class="col-lg-2 capability-slide">
+								<div class="row">
+									<div class="col-lg-12">
+										<div id="industry-points">
+											<ul>
+												<li>Identification Feature</li>
+												<li>Verification System</li>
+												<li>Suitability</li>
+												<li>Device</li>
+												<li>Development</li>
+												<li>Test System</li>
+												<li>Certification - CE/CEM</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="section-margin"></div>
+				<div class="container-fluid capabilities-sections" id="five">
+					<div id="sensors">
+						<div class="row">
+							<div class="col-lg-3 capability-slide">
+								<div class="row">
+									<div class="col-lg-12 main-service-name">
+										<h3>Manufacturing</h3>
+										<p>We provide solutions for your devices and processes used in the creation of
+											your products.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-7">
+								<div class="image" style="text-align: center;"><img alt="" class="img-fluid"
+										src="./images/services/desktop/others/service-7.png"></div>
+							</div>
+							<div class="col-lg-2 capability-slide">
+								<div class="row">
+									<div class="col-lg-12">
+										<div id="manufecturing-points">
+											<ul>
+												<li>Procurements</li>
+												<li>Programming</li>
+												<li>Collection</li>
+												<li>Testing</li>
+												<li>Time Management</li>
+												<li>Electronic Card Manufacturing</li>
+												<li>Inventory Management</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--================================= TAB SERVICES =====================================-->
+			<div class="tab-services">
+				<div class="container-fluid capabilities-sections tabet-capabilities" id="one-tab">
+					<div id="connectivities">
+						<div class="row">
+							<div class="col-lg-12">
+								<h3>Project Study</h3>
+								<p>We offer solutions starting from the creation stage of your product through various
+									technological alternatives that meet your cost objectives.</p>
+							</div>
+							<div class="col-md-4 col-sm-6 col-xs-12">
+								<div class="Tab-Mechanical blue">
+									<h5>Requirement Assessment</h5>
+									<ul>
+										<li>Standard Specification Requirements</li>
+										<li>Needs Assessment</li>
+										<li>Feasibility Study</li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-md-8 col-sm-6 col-xs-12"><img alt="" class="img-fluid"
+									src="./images/services/tab/others/tab-1.png"></div>
+							<div class="col-md-6 col-sm-6 col-xs-12">
+								<h5>Problem Analysis</h5>
+								<ul>
+									<li>Identify the problems</li>
+									<li>Designing the solutions</li>
+								</ul>
+							</div>
+							<div class="col-md-6 col-sm-6 col-xs-12">
+								<div class="Tab-Smart-Cars blue">
+									<h5>Project Management</h5>
+									<ul>
+										<li>Staying on schedule is crucial to the successful completion of any project
+										</li>
+										<li>risk management and contingency plannings</li>
+										<li>Project budget Management</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container-fluid capabilities-sections tabet-capabilities" id="two-tab">
+					<div id="connectivities">
+						<div class="row">
+							<div class="col-lg-12">
+								<h3>Hardware Development</h3>
+								<p>We pledge refinement of your product to guarantee compliance to required solutions.
+								</p>
+							</div>
+							<div class="col-md-4 col-sm-6 col-xs-12">
+								<div class="Tab-Mechanical blue">
+									<h5>PCB Design and Fabrication</h5>
+									<p>We use different PCB design softwares to meet your needs: Altium Designer;
+										Cadence Orcad or Allegro; Eagle; KiCAD, which provides very high level PCB
+										design files and full 3D CAD design output capabilities.</p>
+								</div>
+							</div>
+							<div class="col-md-8 col-sm-6 col-xs-12"><img alt="" class="img-fluid"
+									src="./images/services/tab/others/teb-2.png"></div>
+							<div class="col-md-6 col-sm-6 col-xs-12">
+								<h5>Box Build Services</h5>
+								<p class="hd-p">Not only PCB assembly , but also a complete solution including
+									mechanical parts assembly. We control the entire process from procurement of
+									mechanical parts to meet any customers expectations in terms of quality and
+									reliability.</p>
+							</div>
+							<div class="col-md-6 col-sm-6 col-xs-12">
+								<div class="Tab-Smart-Cars blue">
+									<h5>3D Printing</h5>
+									<ul>
+										<li>rapid prototypes, tooling, on-demand parts and low-volume production</li>
+										<li>Our powerful 3D printing technology produces highly accurate and durable
+											parts capable of being used directly in end-use.</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container-fluid capabilities-sections tabet-capabilities" id="three-tab">
+					<div id="connectivities">
+						<div class="row">
+							<div class="col-lg-12">
+								<h3>Embedded Software Development</h3>
+								<p>Helyptic Teams provides Embedded systems development services from concept to
+									prototype and manufacturing phase, with our technologies and solutions we will fit
+									customer needs to match market expectations</p>
+							</div>
+							<div class="col-md-4 col-sm-6 col-xs-12">
+								<div class="esd-Tab-Mechanical blue">
+									<h5>Device Hardware design</h5>
+									<ul>
+										<li>Schematics</li>
+										<li>Layout design</li>
+										<li>BOM</li>
+										<li>FPGA Designs (RTL Coding , simulation)</li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-md-8 col-sm-6 col-xs-12"><img alt="" class="img-fluid"
+									src="./images/services/tab/others/tab-3.png"></div>
+							<div class="col-md-6 col-sm-6 col-xs-12">
+								<h5>Software Design</h5>
+								<ul>
+									<li>GUI</li>
+									<li>Application Software</li>
+									<li>Middleware</li>
+								</ul>
+							</div>
+							<div class="col-md-6 col-sm-6 col-xs-12">
+								<div class="Tab-Smart-Cars blue">
+									<h5>Firmware design</h5>
+									<ul>
+										<li>Board support packages BSP</li>
+										<li>Bootloaders</li>
+										<li>Device drivers</li>
+										<li>Porting</li>
+										<li>Protocol stack</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container-fluid capabilities-sections tabet-capabilities" id="four-tab">
+					<div id="connectivities">
+						<div class="row">
+							<div class="col-lg-12">
+								<h3>Industrialisation</h3>
+								<p>We provide solutions for your devices and processes used in the creation of your
+									products.</p>
+							</div>
+							<div class="col-md-8 col-sm-6 col-xs-12"><img alt="" class="img-fluid"
+									src="./images/services/tab/others/tab-4.png"></div>
+							<div class="col-md-4 col-sm-6 col-xs-12">
+								<div class="Tab-Data-Processing">
+									<ul>
+										<li>Identification Feature</li>
+										<li>Verification System</li>
+										<li>Suitability</li>
+										<li>Device</li>
+										<li>Development</li>
+										<li>Test System</li>
+										<li>Certification - CE/CEM</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container-fluid capabilities-sections tabet-capabilities" id="five-tab">
+					<div id="connectivities">
+						<div class="row">
+							<div class="col-lg-12">
+								<h3>Manufacturing</h3>
+								<p>We provide solutions for your devices and processes used in the creation of your
+									products.</p>
+							</div>
+							<div class="col-md-8 col-sm-6 col-xs-12"><img alt="" class="img-fluid"
+									src="./images/services/tab/others/tab-5.png"></div>
+							<div class="col-md-4 col-sm-6 col-xs-12">
+								<div class="Tab-Data-Processing">
+									<ul>
+										<li>Procurements</li>
+										<li>Programming</li>
+										<li>Collection</li>
+										<li>Testing</li>
+										<li>Time Management</li>
+										<li>Electronic Card Manufacturing</li>
+										<li>Inventory Management</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--================================= MOBILE SERVICES =====================================-->
+			<div class="mobile-services">
+				<br>
+				<div class="container-fluid capabilities-sections tabet-capabilities" id="one-mobile">
+					<div id="connectivities">
+						<div class="row">
+							<div class="col-lg-12">
+								<h3>Project Study</h3>
+								<p>We offer solutions starting from the creation stage of your product through various
+									technological alternatives that meet your cost objectives.</p>
+							</div>
+							<div class="col-md-8 col-sm-6 col-xs-12"><img alt="" class="img-fluid"
+									src="./images/services/tab/others/tab-1.png"></div>
+							<div class="col-md-4 col-sm-6 col-xs-12">
+								<div class="Tab-Mechanical blue">
+									<h5>Requirement Assessment</h5>
+									<ul>
+										<li>Standard Specification Requirements</li>
+										<li>Needs Assessment</li>
+										<li>Feasibility Study</li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6 col-xs-12">
+								<h5>Problem Analysis</h5>
+								<ul>
+									<li>Identify the problems</li>
+									<li>Designing the solutions</li>
+								</ul>
+							</div>
+							<div class="col-md-6 col-sm-6 col-xs-12">
+								<div class="Tab-Smart-Cars blue">
+									<h5>Project Management</h5>
+									<ul>
+										<li>Staying on schedule is crucial to the successful completion of any project
+										</li>
+										<li>risk management and contingency plannings</li>
+										<li>Project budget Management</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container-fluid capabilities-sections tabet-capabilities" id="two-mobile">
+					<div id="connectivities">
+						<div class="row">
+							<div class="col-lg-12">
+								<h3>Hardware Development</h3>
+								<p>We pledge refinement of your product to guarantee compliance to required solutions.
+								</p>
+							</div>
+							<div class="col-md-8 col-sm-6 col-xs-12"><img alt="" class="img-fluid"
+									src="./images/services/tab/others/tab-2.png"></div>
+							<div class="col-md-4 col-sm-6 col-xs-12">
+								<div class="Tab-Mechanical blue">
+									<h5>PCB Design and Fabrication</h5>
+									<p>We use different PCB design softwares to meet your needs: Altium Designer;
+										Cadence Orcad or Allegro; Eagle; KiCAD, which provides very high level PCB
+										design files and full 3D CAD design output capabilities.</p>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6 col-xs-12">
+								<h5>Box Build Services</h5>
+								<p class="hd-p">Not only PCB assembly , but also a complete solution including
+									mechanical parts assembly. We control the entire process from procurement of
+									mechanical parts to meet any customers expectations in terms of quality and
+									reliability.</p>
+							</div>
+							<div class="col-md-6 col-sm-6 col-xs-12">
+								<div class="Tab-Smart-Cars blue">
+									<h5>3D Printing</h5>
+									<ul>
+										<li>rapid prototypes, tooling, on-demand parts and low-volume production</li>
+										<li>Our powerful 3D printing technology produces highly accurate and durable
+											parts capable of being used directly in end-use.</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container-fluid capabilities-sections tabet-capabilities" id="three-mobile">
+					<div id="connectivities">
+						<div class="row">
+							<div class="col-lg-12">
+								<h3>Embedded Software Development</h3>
+								<p>Helyptic Teams provides Embedded systems development services from concept to
+									prototype and manufacturing phase, with our technologies and solutions we will fit
+									customer needs to match market expectations</p>
+							</div>
+							<div class="col-md-8 col-sm-6 col-xs-12"><img alt="" class="img-fluid"
+									src="./images/services/tab/others/tab-3.png"></div>
+							<div class="col-md-4 col-sm-6 col-xs-12">
+								<div class="Tab-Mechanical blue">
+									<h5>Device Hardware design</h5>
+									<ul>
+										<li>Schematics</li>
+										<li>Layout design</li>
+										<li>BOM</li>
+										<li>FPGA Designs (RTL Coding , simulation)</li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6 col-xs-12">
+								<h5>Software Design</h5>
+								<ul>
+									<li>GUI</li>
+									<li>Application Software</li>
+									<li>Middleware</li>
+								</ul>
+							</div>
+							<div class="col-md-6 col-sm-6 col-xs-12">
+								<div class="Tab-Smart-Cars blue">
+									<h5>Firmware design</h5>
+									<ul>
+										<li>Board support packages BSP</li>
+										<li>Bootloaders</li>
+										<li>Device drivers</li>
+										<li>Porting</li>
+										<li>Protocol stack</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container-fluid capabilities-sections tabet-capabilities" id="four-mobile">
+					<div id="connectivities">
+						<div class="row">
+							<div class="col-lg-12">
+								<h3>Industrialisation</h3>
+								<p>We provide solutions for your devices and processes used in the creation of your
+									products.</p>
+							</div>
+							<div class="col-md-8 col-sm-6 col-xs-12"><img alt="" class="img-fluid"
+									src="./images/services/tab/others/tab-4.png"></div>
+							<div class="col-md-4 col-sm-6 col-xs-12">
+								<div class="Tab-Data-Processing">
+									<ul>
+										<li>Identification Feature</li>
+										<li>Verification System</li>
+										<li>Suitability</li>
+										<li>Device</li>
+										<li>Development</li>
+										<li>Test System</li>
+										<li>Certification - CE/CEM</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="container-fluid capabilities-sections tabet-capabilities" id="five-mobile">
+					<div id="connectivities">
+						<div class="row">
+							<div class="col-lg-12">
+								<h3>Manufacturing</h3>
+								<p>We provide solutions for your devices and processes used in the creation of your
+									products.</p>
+							</div>
+							<div class="col-md-8 col-sm-6 col-xs-12"><img alt="" class="img-fluid"
+									src="./images/services/tab/others/tab-5.png"></div>
+							<div class="col-md-4 col-sm-6 col-xs-12">
+								<div class="Tab-Data-Processing">
+									<ul>
+										<li>Procurements</li>
+										<li>Programming</li>
+										<li>Collection</li>
+										<li>Testing</li>
+										<li>Time Management</li>
+										<li>Electronic Card Manufacturing</li>
+										<li>Inventory Management</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="section-margin"></div>
+			<div class="section-margin"></div>
+			<div class="section-margin"></div>
+			<!--================================= Contact Us =====================================-->
+			<section class="" id="contact-me" style="overflow: hidden;">
+				<div class="container-fluid" style="margin: 0; padding: 0;">
+					<div class="contact-us">
+						<div class="heading-Contact">
+							<div class="row">
+								<div class="col-lg-12" style="text-align: center;">
+									<h1>Contact Us</h1>
+									<p>Do you have any questions? Please do not hesitate to<br>
+										contact us directly. Our team will come back to you<br>
+										within a matter of hours to help you.</p>
+								</div>
+							</div>
+						</div>
+						<div class="container-fluid contact-glass-effect" style="margin: 0; padding: 0; z-index: -1;">
+							<img alt="Contact Us" src="./images/home/desktop/others/contact-us.png"
+								style="overflow: hidden;"></div>
+						<div class="container-fluid contact-glass-image"
+							style="margin-top: 0; padding: 0; z-index: -1;">
+							<div class="row">
+								<div class="col-lg-1"></div>
+								<div class="col-lg-4 contact-image"><img alt="Contact Us"
+										src="./images/home/desktop/others/contact-us.png"></div>
+								<div class="col-lg-2"></div>
+								<div class="col-lg-4 contact-form-detail">
+									<div class="contact-form">
+										<form action="https://formspree.io/f/xaylzboy" id="contact-form" method="post"
+											name="contact-form">
+											<input id="fname" name="Name" placeholder="Full Name" required=""
+												type="text"> <input id="fname" name="Email" placeholder="Email Adderss"
+												required="" type="email"> <input id="fname" name="Phone"
+												placeholder="Phone Number" required="" type="text"> <input id="fname"
+												name="Subject" placeholder="Subject" required="" type="text">
+											<textarea cols="30" id="" name="Message" placeholder="Message" required=""
+												rows="6"></textarea><br>
+											<div class="g-recaptcha"
+												data-sitekey="6LcRw34aAAAAALUSm_3s_G-JdihcigZMMf07981n"></div><input
+												id="my-form-button" type="submit" value="Send"><br>
+											<span id="my-form-status"></span>
+										</form>
+										<div class="status"></div>
+									</div>
+								</div>
+								<div class="col-lg-2"></div>
+							</div>
+						</div>
+					</div>
+					<div class="contact-signature" id="tab-p" style="z-index: 9999;">
+						<div class="footer-cta pt-5 pb-5">
+							<div class="row">
+								<div class="col-xl-4 col-md-4 mb-30">
+									<div class="single-cta">
+										<i class="fas fa-map-marker-alt" id="ipad"></i>
+										<div class="cta-text">
+											<h4>Find us</h4><span>7 Harp Ln, Tower,<br>
+												London EC3R 6DP<br>
+												United Kingdom</span>
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-4 col-md-4 mb-30">
+									<div class="single-cta callus">
+										<i class="fas fa-phone" id="ipad"></i>
+										<div class="cta-text">
+											<h4>Call us</h4><span>+44 20 37696206</span>
+										</div>
+									</div>
+								</div>
+								<div class="col-xl-4 col-md-4 mb-30">
+									<div class="single-cta" style="float: right;">
+										<i class="fas fa-envelope"></i>
+										<div class="cta-text">
+											<h4>Mail us</h4><span>info@helyptic.com</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="contact-signature" id="mobile-p" style="z-index: 9999;">
+						<div class="footer-cta pt-5 pb-5">
+							<div class="row">
+								<div class="col-lg-12">
+									<div class="single-cta">
+										<i class="fas fa-map-marker-alt" id="ipad"></i>
+										<div class="cta-text">
+											<h4>Find us</h4><span>7 Harp Ln, Tower,<br>
+												London EC3R 6DP<br>
+												United Kingdom</span>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-12">
+									<div class="single-cta">
+										<i class="fas fa-phone" id="ipad"></i>
+										<div class="cta-text">
+											<h4>Call us</h4><span>+44 20 37696206</span>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-12">
+									<div class="single-cta">
+										<i class="fas fa-envelope"></i>
+										<div class="cta-text">
+											<h4>Mail us</h4><span>info@helyptic.com</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!--================================= Footer =====================================-->
+			<footer class="destopFooter" style="overflow: hidden;">
+				<div class="footer-background">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-lg-3">
+								<div class="logo-paragrph">
+									<img alt="" src="./images/logo/logo.png">
+									<p>As part of the Automotive Future, We Design and Develop Innovative Software
+										solutions for tomorrow.</p>
+								</div>
+							</div>
+							<div class="col-lg-2"></div>
+							<div class="col-lg-3">
+								<div class="footer-widget">
+									<div id="our-company">
+										<div class="footer-widget-heading">
+											<h4>Our Company</h4>
+										</div>
+										<ul>
+											<li>
+												<a href="index.html">Home</a>
+											</li>
+											<li>
+												<a href="capability.html">Capabilities</a>
+											</li>
+											<li>
+												<a href="services.html">Services</a>
+											</li>
+											<li>
+												<a href="#contact-me">Contact Us</a>
+											</li>
+											<li>
+												<a href="privacy-policy.html" id="termss" target="_blank">Privacy
+													Policy</a>
+											</li>
+											<li>
+												<a href="terms-&-conditions.html" id="termss" target="_blank">Terms &
+													Conditions</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-1"></div>
+							<div class="col-lg-3">
+								<div class="footer-widget" id="leftmargin">
+									<div class="footer-widget-heading">
+										<h4 style="margin-left: -10px;">Email Us</h4>
+									</div>
+									<div class="footer-text mb-25">
+										<p>Do you have any questions? Please do not hesitate to contact us directly. Our
+											team will come back to you within a matter of hours to help you.</p>
+									</div>
+									<div class="subscribe-form">
+										<form action="https://formspree.io/f/xpzoegyb" id="Email-Form" method="post"
+											name="Email-Form">
+											<input name="_replyto" placeholder="Email Address" required="" type="email">
+											<button id="Email-Us" type="submit"><svg height="24" viewbox="0 0 24 24"
+													width="24" xmlns="http://www.w3.org/2000/svg">
+													<path
+														d="M23.5029 11.2211L1.21769 0.935679C0.862839 0.77454 0.439421 0.870538 0.19257 1.17567C-0.0559956 1.48081 -0.0645668 1.91451 0.171999 2.22822L7.50039 11.9994L0.171999 21.7706C-0.0645668 22.0843 -0.0559956 22.5197 0.190855 22.8231C0.357137 23.0306 0.605702 23.142 0.857696 23.142C0.979408 23.142 1.10112 23.1163 1.21597 23.0631L23.5011 12.7777C23.8063 12.6371 24 12.3337 24 11.9994C24 11.6651 23.8063 11.3617 23.5029 11.2211Z"
+														fill="#114F87"></path>
+												</svg> &nbsp; <span>Send</span></button><br>
+											<p id="Email-Status"></p><br>
+										</form>
+										<div class="social-media-icons">
+											<span>Follow Us <a href="https://www.facebook.com/helyptic"
+													target="_blank"><i class="fab fa-facebook-f"
+														style="padding-left: 15px;"></i></a> <a
+													href="https://www.linkedin.com/company/helyptic" target="_blank"><i
+														class="fab fa-linkedin-in"></i></a></span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div><br>
+					<br>
+					<br>
+					<div class="border-copyright">
+						<div class="copyright-area">
+							<div>
+								<div class="container-fluid" style="padding-left:30px ;padding-right:30px ;">
+									<div class="row">
+										<div class="col-xl-6">
+											<div class="copyright-text">
+												<p>Copyright &copy; <a href="index.html">2020-2023 Helyptic.com</a> All
+													rights reserved.</p>
+											</div>
+										</div>
+										<div class="">
+											<div class="footer-menu">
+												<ul>
+													<li style="list-style: none;">
+														<a href="privacy-policy.html" style="text-decoration: none;"
+															target="_blank"><span style="color: white;">Privacy</span>
+															<span style="color: #42c0d6;">Policy</span></a>&nbsp;&nbsp;
+														<a href="terms-&-conditions.html" style="text-decoration: none;"
+															target="_blank"><span style="color: white;">Terms &</span>
+															<span style="color: #42c0d6;">Conditions</span></a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<footer class="tabetFooter" style="overflow: hidden;">
+				<div class="footer-background">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-xl-3 col-md-4">
+								<div class="footer-widget">
+									<div id="our-company">
+										<div class="footer-widget-heading">
+											<h4>Our Company</h4>
+										</div>
+										<ul>
+											<li>
+												<a href="index.html">Home</a>
+											</li>
+											<li>
+												<a href="capability.html">Capabilities</a>
+											</li>
+											<li>
+												<a href="services.html">Services</a>
+											</li>
+											<li>
+												<a href="#contact-me">Contact Us</a>
+											</li>
+											<li>
+												<a href="terms-&-conditions.html" id="termss" target="_blank">Terms &
+													Conditions</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="col-xl-9 col-md-7">
+								<div class="footer-widget" id="leftmargin">
+									<div class="footer-widget-heading">
+										<h4 style="margin-left: -10px;">Email Us</h4>
+									</div>
+									<div class="footer-text mb-25">
+										<p>Do you have any questions? Please do not hesitate to contact us directly. Our
+											team will come back to you within a matter of hours to help you.</p>
+									</div>
+									<div class="subscribe-form">
+										<form action="https://formspree.io/f/xpzoegyb" id="Email-Form" method="post"
+											name="Email-Form">
+											<input name="_replyto" placeholder="Email Address" required="" type="email">
+											<button id="Email-Us" type="submit"><svg height="24" viewbox="0 0 24 24"
+													width="24" xmlns="http://www.w3.org/2000/svg">
+													<path
+														d="M23.5029 11.2211L1.21769 0.935679C0.862839 0.77454 0.439421 0.870538 0.19257 1.17567C-0.0559956 1.48081 -0.0645668 1.91451 0.171999 2.22822L7.50039 11.9994L0.171999 21.7706C-0.0645668 22.0843 -0.0559956 22.5197 0.190855 22.8231C0.357137 23.0306 0.605702 23.142 0.857696 23.142C0.979408 23.142 1.10112 23.1163 1.21597 23.0631L23.5011 12.7777C23.8063 12.6371 24 12.3337 24 11.9994C24 11.6651 23.8063 11.3617 23.5029 11.2211Z"
+														fill="#114F87"></path>
+												</svg> &nbsp; <span>Send</span></button><br>
+											<p id="Email-Status"></p><br>
+										</form>
+										<div class="social-media-icons">
+											<span>Follow Us <a href="https://www.facebook.com/helyptic"><i
+														class="fab fa-facebook-f"></i></a> <a
+													href="https://www.linkedin.com/company/helyptic"><i
+														class="fab fa-linkedin-in"></i></a></span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-3 tabetcompanypara">
+								<div class="logo-paragrph">
+									<img alt="" src="./images/logo/logo.png">
+									<p>As part of the Automotive Future, We Design and Develop Innovative Software
+										solutions for tomorrow.</p>
+								</div>
+							</div>
+						</div>
+					</div><br>
+					<br>
+					<br>
+					<div class="border-copyright">
+						<div class="copyright-area">
+							<div>
+								<div class="container-fluid" style="padding-left:30px ;padding-right:30px ;">
+									<div class="row">
+										<div class="col-xl-6">
+											<div class="copyright-text">
+												<p>Copyright &copy; <a href="index.html">2020-2023 Helyptic.com</a> All
+													rights reserved.</p>
+											</div>
+										</div>
+										<div class="">
+											<div class="footer-menu">
+												<ul>
+													<li style="list-style: none;">
+														<a href="privacy-policy.html" style="text-decoration: none;"
+															target="_blank"><span style="color: white;">Privacy</span>
+															<span style="color: #42c0d6;">Policy</span></a>&nbsp;&nbsp;
+														<a href="terms-&-conditions.html" style="text-decoration: none;"
+															target="_blank"><span style="color: white;">Terms &</span>
+															<span style="color: #42c0d6;">Conditions</span></a>
+													</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<footer class="mobileFooter" style="overflow: hidden;">
+				<div class="footer-background">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="logo-paragrph">
+									<img alt="" src="./images/logo/logo.png">
+									<p>As part of the Automotive Future, We Design and Develop Innovative Software
+										solutions for tomorrow.</p>
+								</div>
+							</div>
+							<div class="col-lg-12">
+								<div class="footer-widget">
+									<div class="footer-widget-heading">
+										<h4>Email Us</h4>
+									</div>
+									<div class="footer-text mb-25" style="padding-right: 10px;">
+										<p>Do you have any questions? Please do not hesitate to contact us directly. Our
+											team will come back to you within a matter of hours to help you.</p>
+									</div>
+									<div class="subscribe-form">
+										<form action="https://formspree.io/f/xpzoegyb" id="Email-Form" method="post"
+											name="Email-Form">
+											<input name="_replyto" placeholder="Email Address" required="" type="email">
+											<button id="Email-Us" type="submit"><svg height="24" viewbox="0 0 24 24"
+													width="24" xmlns="http://www.w3.org/2000/svg">
+													<path
+														d="M23.5029 11.2211L1.21769 0.935679C0.862839 0.77454 0.439421 0.870538 0.19257 1.17567C-0.0559956 1.48081 -0.0645668 1.91451 0.171999 2.22822L7.50039 11.9994L0.171999 21.7706C-0.0645668 22.0843 -0.0559956 22.5197 0.190855 22.8231C0.357137 23.0306 0.605702 23.142 0.857696 23.142C0.979408 23.142 1.10112 23.1163 1.21597 23.0631L23.5011 12.7777C23.8063 12.6371 24 12.3337 24 11.9994C24 11.6651 23.8063 11.3617 23.5029 11.2211Z"
+														fill="#114F87"></path>
+												</svg> &nbsp; <span>Send</span></button><br>
+											<p id="Email-Status"></p><br>
+										</form>
+										<div class="social-media-icons">
+											<span>Follow Us <a href="https://www.facebook.com/helyptic">&nbsp;&nbsp;<i
+														class="fab fa-facebook-f"></i></a> <a
+													href="https://www.linkedin.com/company/helyptic"><i
+														class="fab fa-linkedin-in"></i></a></span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-12">
+								<br>
+								<div class="footer-widget">
+									<div id="our-company">
+										<div class="footer-widget-heading">
+											<h4>Our Company</h4>
+										</div>
+										<ul>
+											<li>
+												<a href="index.html">Home</a>
+											</li>
+											<li>
+												<a href="capability.html">Capabilities</a>
+											</li>
+											<li>
+												<a href="services.html">Services</a>
+											</li>
+											<li>
+												<a href="#contact-me">Contact Us</a>
+											</li>
+											<li>
+												<a href="privacy-policy.html">Privacy Policy</a>
+											</li>
+											<li>
+												<a href="terms-&-conditions.html">Terms & Conditions</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div><br>
+					<br>
+					<div class="border-copyright">
+						<div class="copyright-area" style="text-align: center; margin: 0;padding: 0;">
+							<div>
+								<div style="text-align: center; margin: 0;padding: 0; margin-top: 15px;">
+									<p style="margin: 0;padding: 0;">Copyright &copy; <a href="index.html"
+											style="color: #42c0d6;">2020-2023 Helyptic.com</a> All rights reserved.</p><a
+										href="terms-&-conditions.html" style="text-decoration: none;"
+										target="_blank"><span style="color: white;">Terms &</span> <span
+											style="color: #42c0d6;">Conditions</span></a>&nbsp;&nbsp;<a
+										href="privacy-policy.html"><span style="color: white;">Privacy</span> <span
+											style="color: #42c0d6;">Policy</span></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<!--============== FADE ANIMATION ===================-->
+			<script src='./aos/js/aos.js'></script>
+			<!--============== J-QUERY 3.1.1 ===================-->
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+			<!--============== CUSTOM JS ===================-->
+			<script src="./js/app.js"></script>
+			<script src="./js/service.js"></script>
+		</div>
+	</div>
+</body>
+
+</html>

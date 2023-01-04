@@ -1,0 +1,1805 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap');
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+#capability-banner {
+	background: linear-gradient(288deg, #000106 1.1%, #08395F 15.65%, #096A8A 26.87%, #1A466C 41.97%, #113359 48.89%, #031834 60.69%, #0A332C 97.23%);
+	overflow: hidden;
+}
+#capability-contact-icons {
+	margin-top: 270px;
+}
+#capability-contact-icons ul li {
+	margin-top: 35px;
+}
+#capability-language-icons {
+	position: absolute;
+	overflow: hidden;
+	top: 5%;
+	right: 1.5%;
+}
+#capability-heading-title {
+	top: 200px;
+	left: 60px;
+}
+#capability-heading-title h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 50px;
+}
+.capability-hero-content {
+	margin-top: 100px;
+	height: 100%;
+	margin-top: 100px;
+}
+.capability-hero-content .capability-card {
+	width: 100%;
+	height: 210px;
+	background: blue;
+	cursor: pointer;
+}
+.capability-hero-content .capability-card svg {
+	fill: white;
+	transition: .5s;
+}
+.capability-hero-content .capability-card:hover svg {
+	fill: rgba(2, 255, 225, 0.77);
+	transition: .5s;
+}
+.capability-hero-content .capability-card:hover #hero-card-span {
+	transition: .5s;
+}
+.capability-hero-content .capability-card:hover #hero-card-span {
+	fill: rgba(2, 255, 225, 0.77);
+	transition: .5s;
+}
+.capabilities-sections {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.have-a-question {
+	margin: 4%;
+	text-align: center;
+}
+.have-a-question h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 50px;
+	text-transform: uppercase;
+	color: #494949;
+}
+.have-a-question p {
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-size: 24px;
+	font-weight: 400;
+	color: #494949;
+}
+.instrustions-cards {
+	padding: 20px;
+}
+.instrustions-cards h4 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	color: #114F87;
+	font-size: 20px;
+	padding: 20px;
+	padding-left: 100px;
+	padding-right: 0;
+}
+.instrustions-cards p {
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	color: #000000;
+}
+.instrustions-cards #box {
+	height: 70px;
+	width: 70px;
+	background: linear-gradient(-223.91deg, #7395B0 12.79%, #F8FCFF 52.48%, #BCD0ED 95.11%);
+	border-radius: 10px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	backdrop-filter: blur(90px);
+}
+.instrustions-cards #box svg {
+	fill: #114F87;
+	margin: 23px;
+}
+.capabilities-sections p {
+	text-align: justify;
+	text-justify: distribute;
+}
+@media screen and (max-width:2500px) {
+	#capability-heading-title {
+		top: 290px;
+		left: 180px;
+	}
+	#capability-heading-title h1 {
+		font-size: 75px;
+	}
+	#capability-contact-icons {
+		margin-top: 390px;
+	}
+	#capability-contact-icons ul li {
+		margin-top: 50px;
+	}
+	.capability-hero-content {
+		padding-top: 40px;
+	}
+	.capability-hero-content .capability-card {
+		width: 350px;
+		height: 300px;
+		backdrop-filter: blur(20px);
+		border-radius: 10px;
+		margin: 16px;
+		border: 1px solid rgba(255, 255, 255, 0.1);
+		text-align: left;
+		background: rgba(255, 255, 255, 0.062);
+		backdrop-filter: blur(8px);
+		/* Note: backdrop-filter has minimal browser support */
+		border-radius: 10px;
+	}
+	.capability-hero-content .capability-card img {
+		padding: 13px;
+		width: 343px;
+	}
+	.capability-hero-content .capability-card span {
+		padding-left: 30px;
+		padding-right: 10px;
+		color: white;
+	}
+	.direction {
+		margin: 10px;
+		margin-left: 30px;
+	}
+	.direction span {
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 400;
+		color: black;
+	}
+	.direction span a {
+		font-family: 'Open Sans', sans-serif;
+		color: black;
+		text-decoration: none;
+		font-weight: 400;
+	}
+	.direction i {
+		color: #114F87;
+		position: absolute;
+		font-size: 26px;
+		margin-top: -10px;
+		padding: 10px;
+	}
+	.section-margin {
+		margin: 4%;
+	}
+	.embedded-system .col-lg-6 {
+		background: red;
+	}
+	.image-right {
+		margin-top: 40px;
+	}
+	.capability-slide .rightone {
+		margin-left: -50px;
+	}
+	.capability-slide h3 {
+		padding: 20px;
+		padding-bottom: 30px;
+		padding-left: 0px;
+		font-weight: 600;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 40px;
+	}
+	.capability-slide h5 {
+		padding: 20px;
+		padding-left: 0px;
+		font-family: 'Open Sans', sans-serif;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 30px;
+		color: black;
+	}
+	.capability-slide p {
+		font-family: 'Open Sans', sans-serif;
+		font-style: 400;
+		font-size: 16px;
+		line-height: 150%;
+	}
+	ul li {
+		font-family: 'Open Sans', sans-serif;
+	}
+	.capability-slide li {
+		font-family: 'Open Sans', sans-serif;
+		font-style: 400;
+		font-size: 16px;
+		line-height: 35px;
+		list-style: none;
+	}
+	.capability-slide ul>li:before {
+		content: "";
+		height: 1.5rem;
+		width: 1.5rem;
+		display: block;
+		float: left;
+		margin-left: -1.5rem;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 100%;
+		font-size: 20px;
+	}
+	.capability-slide ul>li:before {
+		content: '\f054';
+		font-family: 'FontAwesome';
+		background-size: cover;
+		background-position: center;
+		padding: .15rem;
+		padding-right: 25px;
+		color: #114F87;
+		font-size: 20px;
+	}
+	/* ========================== From "Embedded Systems" ==========================*/
+	#smart-cars {
+		position: relative;
+		margin: 20px;
+		margin-left: -20%;
+		width: fit-content;
+		padding: 20px;
+		padding-right: 0px;
+		background: linear-gradient(-204.1deg, #7391b09a 8.28%, #cbddec6c 44.35%, #729bc986 92.05%);
+		backdrop-filter: blur(20px);
+		border-radius: 10px;
+		border: 1px solid rgba(255, 255, 255, 0.164);
+	}
+	#smart-cars h5 {
+		color: #114F87;
+		font-style: normal;
+		font-weight: normal;
+	}
+	#mechanical-solution {
+		position: relative;
+		width: fit-content;
+		background: linear-gradient(-208.12deg, #7391b09f 3.58%, #cbddec70 37.21%, #729bc98e 81.71%);
+		backdrop-filter: blur(20px);
+		border-radius: 10px;
+		padding: 15px;
+		padding-left: 30px;
+		padding-right: 50px;
+		right: -30%;
+		z-index: 2;
+		margin: 30px;
+		top: 40%;
+		border: 1px solid rgba(255, 255, 255, 0.308);
+	}
+	#mechanical-solution h5 {
+		color: #114F87;
+		font-style: normal;
+		font-weight: normal;
+	}
+	/* ========================== From "Electronic Design" ==========================*/
+	#electronic-product-design {
+		position: absolute;
+		top: 42%;
+	}
+	#electronic-product-design h5 {
+		color: #114F87;
+		font-style: normal;
+		font-weight: normal;
+	}
+	#pcb-routing {
+		position: absolute;
+		width: 450px;
+		padding: 0px;
+		background: linear-gradient(-203.86deg, #7391b08c 6.84%, #cbddec69 42.63%, #729bc980 89.96%);
+		backdrop-filter: blur(20px);
+		border-radius: 10px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 20px;
+		top: 50%;
+		right: -40%;
+		z-index: 2;
+		border: 1px solid rgba(255, 255, 255, 0.308);
+	}
+	#pcb-routing h5 {
+		color: #114F87;
+		font-style: normal;
+		font-weight: normal;
+	}
+	#reverse-engineering {
+		position: absolute;
+		top: 30%;
+	}
+	#reverse-engineering h5 {
+		color: #114F87;
+		font-style: normal;
+		font-weight: normal;
+	}
+	#electronic-card {
+		position: absolute;
+		top: 20%;
+		margin: 20px;
+		margin-left: -25%;
+		width: fit-content;
+		padding: 20px;
+		padding-right: 0px;
+		background: linear-gradient(-204.1deg, #7393b093 8.28%, #cbddec80 44.35%, #729bc998 92.05%);
+		backdrop-filter: blur(20px);
+		border-radius: 10px;
+		border: 1px solid rgba(255, 255, 255, 0.308);
+	}
+	#electronic-card h5 {
+		color: #114F87;
+		font-style: normal;
+		font-weight: normal;
+	}
+	/* ========================== From "Software Development" ==========================*/
+	#resource-management {
+		position: relative;
+		margin: 20px;
+		margin-top: 0px;
+		margin-left: -20%;
+		width: fit-content;
+		padding: 10px;
+		padding-left: 20px;
+		padding-right: 0px;
+		background: linear-gradient(-205.92deg, #7394b09a 9.32%, #cbddec8e 44.45%, #729bc996 90.91%);
+		backdrop-filter: blur(20px);
+		border-radius: 10px;
+		border: 1px solid rgba(255, 255, 255, 0.308);
+	}
+	#resource-management h5 {
+		color: #114F87;
+		font-style: normal;
+		font-weight: normal;
+	}
+	#drivers-development {
+		position: absolute;
+		margin: 20px;
+		margin-top: 0px;
+		top: 48%;
+		right: -50%;
+		width: fit-content;
+		padding: 10px;
+		padding-left: 20px;
+		padding-right: 0px;
+		background: linear-gradient(-213.17deg, #7393b098 3.32%, #cbddeca2 34.53%, #729bc99a 75.82%);
+		backdrop-filter: blur(20px);
+		border-radius: 10px;
+		z-index: 2;
+		border: 1px solid rgba(255, 255, 255, 0.308);
+	}
+	#drivers-development h5 {
+		color: #114F87;
+		font-style: normal;
+		font-weight: normal;
+	}
+	/* ========================== From "IOT" ==========================*/
+	#iot-three-points {
+		position: absolute;
+		top: 20%;
+	}
+	#iot-three-points div {
+		position: relative;
+		width: 280px;
+		height: 95px;
+		background: linear-gradient(175.77deg, #85a5bebb 5.47%, #e5f3ff1f 44.89%, #b0c6dfc5 83.76%);
+		backdrop-filter: blur(20px);
+		border-radius: 10px;
+		margin: 20px;
+		left: -30%;
+		cursor: pointer;
+		border: 1px solid rgba(175, 227, 248, 0.308);
+		padding: 27px;
+		padding-left: 35px;
+	}
+	#iot-three-points div span {
+		font-family: 'Open Sans', sans-serif;
+		font-size: 25px;
+		color: #2A2A2B;
+	}
+	#iot-three-points div span i {
+		font-size: 40px;
+		position: absolute;
+		color: #2A2A2B;
+		top: 27px;
+		left: 15px;
+	}
+	#iot-three-points div:hover span {
+		color: #114F87;
+	}
+	#iot-three-points div:hover span i {
+		color: #114F87;
+	}
+	#connectivity-paragraph {
+		position: absolute;
+		top: 20%;
+	}
+	/* ========================== From "Connectivities" ==========================*/
+	#connectivity-paragraph p {
+		position: absolute;
+		top: 20%;
+		padding: 20px;
+	}
+	#connectivities-points {
+		position: absolute;
+		margin: 0px;
+		margin-top: 0px;
+		top: 54%;
+		right: -60%;
+		width: fit-content;
+		padding: 5px;
+		padding-left: 20px;
+		padding-right: 50px;
+		background: linear-gradient(-203.86deg, #7391b09a 6.84%, #cbddec83 42.63%, #729bc99a 89.96%);
+		border: 1px solid rgba(255, 255, 255, 0.308);
+		backdrop-filter: blur(20px);
+		border-radius: 10px;
+		z-index: 2;
+	}
+	/* ========================== From "Connectivities" ==========================*/
+	#data-processing-points {
+		position: absolute;
+		width: 340px;
+		margin: 20px;
+		top: 20%;
+		margin-left: -25%;
+		padding: 0px;
+		padding: 30px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-right: 35px;
+		background: linear-gradient(45.3deg, rgba(115, 149, 176, 0) -5.71%, rgba(203, 221, 236, 0.5) 33.42%, #98b7d8b6 67.07%, #729bc9b6 85.19%);
+		backdrop-filter: blur(20px);
+		border-radius: 10px;
+	}
+	#sensors-points div {
+		position: relative;
+		padding: 10px;
+		padding-left: 20px;
+		background: red;
+		width: fit-content;
+		margin: 8px;
+		border-radius: 5px;
+		top: 2%;
+		left: -60%;
+		background: rgba(255, 255, 255, 0.1);
+		backdrop-filter: blur(20px);
+		/* Note: backdrop-filter has minimal browser support */
+		border: 1px solid rgba(255, 255, 255, 0.253);
+	}
+	#sensors-points div span {
+		font-family: 'Open Sans', sans-serif;
+		color: black;
+		font-size: 16px;
+		padding: 10px;
+	}
+	#sensors-points div span i {
+		position: absolute;
+		color: #2A2A2B;
+		font-size: 30px;
+		top: 7px;
+		left: 15px;
+	}
+	.intra-paragraph {
+		width: 425px;
+		margin: 0 auto;
+	}
+	.intra-paragraph p {
+		font-family: 'Open Sans', sans-serif;
+		font-size: 16px;
+	}
+}
+@media screen and (max-width:1680px) {
+	#hero-card-span {
+		position: absolute;
+		margin-top: -12px;
+		margin-left: 5px;
+	}
+	#capability-heading-title {
+		top: 240px;
+		left: 190px;
+	}
+	#capability-heading-title h1 {
+		font-size: 60px;
+	}
+	#capability-contact-icons {
+		margin-top: 330px;
+	}
+	#capability-contact-icons ul li {
+		margin-top: 30px;
+	}
+	.capability-hero-content {
+		padding: 0;
+		margin: 0;
+		padding-top: 105px;
+		padding-left: 70px;
+	}
+	.capability-hero-content .capability-card {
+		width: 260px;
+		height: 220px;
+		margin: 20px;
+	}
+	.capability-hero-content .capability-card img {
+		padding: 10px;
+		width: 260px;
+	}
+	.capability-hero-content .capability-card span {
+		margin-top: -15px;
+		padding-left: 10px;
+		padding-right: 0px;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 400;
+	}
+	.capability-hero-content .capability-card span svg {
+		margin-top: -30px;
+	}
+	#capability-language-icons {
+		top: 5%;
+	}
+	/****************************** After HERO BANNER ********************************/
+	.have-a-question {
+		margin: 3.5%;
+	}
+	.have-a-question h1 {
+		font-size: 45px;
+	}
+	.instrustions-cards {
+		padding: 20px;
+	}
+	.instrustions-cards h4 {
+		padding: 20px;
+		padding-left: 95px;
+	}
+	.capabilities-sections {
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+	.capability-slide .rightone {
+		margin-left: 0px;
+	}
+	.capability-slide h3 {
+		padding: 20px;
+		padding-left: 0px;
+		font-size: 36px;
+	}
+	.capability-slide h5 {
+		padding: 20px;
+		padding-left: 0px;
+		font-weight: 400;
+		font-size: 28px;
+		color: black;
+	}
+	.image-right {
+		margin-top: 0px;
+	}
+	/* ========================== From "Embedded Systems" ==========================*/
+	#smart-cars {
+		position: absolute;
+		margin: 15px;
+		margin-left: -30%;
+		padding-left: 30px;
+		padding-right: 20px;
+		padding-bottom: 10px;
+		max-width: 100%;
+		top: 45%;
+	}
+	#mechanical-solution {
+		position: relative;
+		max-width: 418px;
+		background: linear-gradient(-208.12deg, #7391b09f 3.58%, #cbddec70 37.21%, #729bc98e 81.71%);
+		backdrop-filter: blur(20px);
+		border-radius: 10px;
+		padding: 20px;
+		padding-left: 30px;
+		padding-right: 50px;
+		right: -30%;
+		z-index: 2;
+		margin: 20px;
+		top: 40%;
+		border: 1px solid rgba(255, 255, 255, 0.308);
+	}
+	/* ========================== From "Electronic Design" ==========================*/
+	#electronic-product-design {
+		position: absolute;
+		top: 10%;
+	}
+	#electronic-product-design h5 {
+		color: #114F87;
+		font-style: normal;
+		font-weight: normal;
+	}
+	#pcb-routing {
+		position: absolute;
+		padding: 20px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 20px;
+		top: 43%;
+		right: -40%;
+		z-index: 2;
+		border: 1px solid rgba(255, 255, 255, 0.308);
+	}
+	#reverse-engineering {
+		position: absolute;
+		top: 15%;
+	}
+	#electronic-card {
+		position: absolute;
+		top: 15%;
+		margin: 20px;
+		margin-left: -25%;
+		padding: 20px;
+		padding-right: 0px;
+	}
+	/* ========================== From "Software Development" ==========================*/
+	#resource-management {
+		position: absolute;
+		margin: 20px;
+		margin-top: 0px;
+		margin-left: -50%;
+		width: fit-content;
+		padding: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+		top: 83%;
+		max-width: 400px;
+	}
+	#drivers-development {
+		position: absolute;
+		margin: 20px;
+		margin-top: 0px;
+		top: 71%;
+		right: -50%;
+		width: 600px;
+		padding: 25px;
+		padding-left: 20px;
+		padding-right: 0px;
+		max-width: 400px;
+	}
+	/* ========================== From "IOT" ==========================*/
+	#iot-three-points {
+		position: absolute;
+		top: 24%;
+	}
+	#iot-three-points div {
+		position: relative;
+		width: 240px;
+		height: 80px;
+		margin: 20px;
+		left: -40%;
+		cursor: pointer;
+		padding: 20px;
+		padding-left: 35px;
+	}
+	#iot-three-points div span {
+		font-size: 22px;
+	}
+	#iot-three-points div span i {
+		font-size: 32px;
+		top: 23px;
+		left: 15px;
+	}
+	#iot-three-points div:hover span {
+		color: #114F87;
+	}
+	#iot-three-points div:hover span i {
+		color: #114F87;
+	}
+	#connectivity-paragraph {
+		position: absolute;
+		top: 20%;
+	}
+	/* ========================== From "Connectivities" ==========================*/
+	#connectivity-paragraph p {
+		position: absolute;
+		top: 20%;
+		padding: 20px;
+	}
+	#connectivities-points {
+		position: absolute;
+		top: 61%;
+		width: 500px;
+		max-width: 400px;
+	}
+	/* ========================== From "Connectivities" ==========================*/
+	#data-processing-points {
+		top: 10%;
+	}
+	#sensors-points div {
+		position: relative;
+		padding: 7px;
+		padding-left: 20px;
+		background: red;
+		width: fit-content;
+		margin: 8px;
+		border-radius: 5px;
+		top: 1%;
+		left: -87%;
+		background: rgba(255, 255, 255, 0.1);
+		backdrop-filter: blur(20px);
+		/* Note: backdrop-filter has minimal browser support */
+		border: 1px solid rgba(255, 255, 255, 0.253);
+	}
+	#sensors-points div span {
+		font-family: 'Open Sans', sans-serif;
+		color: black;
+		font-size: 16px;
+		padding: 10px;
+	}
+	#sensors-points div span i {
+		position: absolute;
+		color: #2A2A2B;
+		font-size: 30px;
+		top: 7px;
+		left: 15px;
+	}
+	#software-margin {
+		margin-bottom: 300px;
+	}
+}
+@media screen and (max-width:1566px) {
+	#capability-contact-icons {
+		margin-top: 315px;
+	}
+	#capability-contact-icons ul li {
+		margin-top: 30px;
+	}
+	#capability-language-icons {
+		top: 0%;
+	}
+	.capability-hero-content .capability-card {
+		width: 260px;
+		height: 220px;
+		margin: 20px;
+	}
+	.capability-hero-content {
+		padding: 0;
+		margin: 0;
+		padding-top: 130px;
+		padding-left: 60px;
+	}
+}
+@media screen and (max-width:1466px) {
+	#capability-contact-icons {
+		margin-top: 280px;
+	}
+	#capability-contact-icons ul li {
+		margin-top: 30px;
+	}
+	#capability-language-icons {
+		top: -2%;
+	}
+	.capability-hero-content .capability-card {
+		width: 260px;
+		height: 220px;
+		margin: 2px;
+	}
+	.capability-hero-content {
+		padding: 0;
+		margin: 0;
+		padding-top: 130px;
+		padding-left: 70px;
+	}
+}
+@media screen and (max-width:1500px) {
+	#capability-language-icons {
+		top: 4%;
+	}
+	#capability-contact-icons {
+		margin-top: 295px;
+	}
+	#connectivity-paragraph {
+		margin-left: -25px;
+	}
+	#sensors-points div {
+		position: relative;
+		padding: 5px;
+		padding-left: 20px;
+		background: red;
+		width: fit-content;
+		margin: 8px;
+		border-radius: 5px;
+		top: 1%;
+		left: -93%;
+		background: rgba(255, 255, 255, 0.1);
+		backdrop-filter: blur(20px);
+		border: 1px solid rgba(255, 255, 255, 0.253);
+	}
+	#capability-heading-title {
+		top: 220px;
+		left: 140px;
+	}
+	#capability-heading-title h1 {
+		font-size: 60px;
+	}
+	/* ========================== From "Embedded Systems" ==========================*/
+	#smart-cars {
+		padding-top: 10px;
+	}
+	#mechanical-solution {
+		padding-top: 10px;
+	}
+	/* ========================== From "Electronic Design" ==========================*/
+	#pcb-routing {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		padding-left: 30px;
+		top: 53%;
+	}
+	#electronic-card {
+		margin-left: -35%;
+		padding-top: 10px;
+		padding-bottom: 13px;
+		padding-left: 30px;
+	}
+	/* ========================== From "Software Development" ==========================*/
+	#resource-management {
+		top: 85%;
+		max-width: 400px;
+		padding-top: 10px;
+		padding-bottom: 13px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	#drivers-development {
+		right: -35%;
+		padding-top: 10px;
+		padding-bottom: 13px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	#contact-me {
+		margin-top: 150px;
+	}
+}
+#desk-capabilities {
+	display: block;
+}
+#tab-capabilities {
+	display: none;
+}
+#mobile-capabilities {
+	display: none;
+}
+@media screen and (max-width:1366px) {
+	#connectivity-paragraph {
+		margin-left: -5px;
+	}
+	#capability-heading-title {
+		top: 190px;
+		left: 130px;
+	}
+	#capability-heading-title h1 {
+		font-size: 50px;
+	}
+	#capability-contact-icons {
+		margin-top: 270px;
+	}
+	#capability-contact-icons ul li {
+		margin-top: 30px;
+	}
+	#capability-language-icons {
+		top: 5%;
+	}
+	.capability-hero-content {
+		padding: 0;
+		margin: 0;
+		padding-top: 96px;
+	}
+	.capability-hero-content .capability-card {
+		width: 260px;
+		height: 220px;
+		margin: 7px;
+	}
+	.capability-slide {
+		padding: 1%;
+	}
+	.capability-slide h3 {
+		padding-bottom: 25px;
+		padding-left: 0px;
+	}
+	.capability-slide h5 {
+		padding: 0px;
+		padding-left: 0px;
+	}
+	.capabilities-sections {
+		padding-left: 1%;
+		padding-right: 1%;
+	}
+	.capability-slide .rightone {
+		margin-left: 0px;
+	}
+	#data-processing-points {
+		top: 4%;
+	}
+	#sensors-points div {
+		position: relative;
+		padding: 5px;
+		padding-left: 20px;
+		background: red;
+		width: fit-content;
+		margin: 8px;
+		border-radius: 5px;
+		top: 1%;
+		left: -93%;
+		background: rgba(255, 255, 255, 0.1);
+		backdrop-filter: blur(20px);
+		/* Note: backdrop-filter has minimal browser support */
+		border: 1px solid rgba(255, 255, 255, 0.253);
+	}
+	#sensors-points div span {
+		font-family: 'Open Sans', sans-serif;
+		color: black;
+		font-size: 14px;
+		padding: 10px;
+	}
+	#sensors-points div span i {
+		position: absolute;
+		color: #2A2A2B;
+		font-size: 24px;
+		top: 7px;
+		left: 15px;
+	}
+	/* ========================== From "IOT" ==========================*/
+	#iot-three-points {
+		position: absolute;
+		top: 24%;
+	}
+	#iot-three-points div {
+		position: relative;
+		width: 230px;
+		height: 70px;
+		margin: 20px;
+		left: -40%;
+		cursor: pointer;
+		padding: 19px;
+		padding-left: 35px;
+	}
+	#iot-three-points div span {
+		font-size: 19px;
+	}
+	#iot-three-points div span i {
+		font-size: 32px;
+		top: 19px;
+		left: 15px;
+	}
+	#iot-three-points div:hover span {
+		color: #114F87;
+	}
+	#iot-three-points div:hover span i {
+		color: #114F87;
+	}
+	#connectivity-paragraph {
+		position: absolute;
+		top: 20%;
+	}
+	/* ========================== From "Electronic Design" ==========================*/
+	#pcb-routing {
+		position: absolute;
+		padding: 20px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 20px;
+		top: 59%;
+		right: -40%;
+		z-index: 2;
+		border: 1px solid rgba(255, 255, 255, 0.308);
+	}
+	.have-a-question h1 {
+		font-size: 40px;
+	}
+	.have-a-question p {
+		font-size: 21px;
+	}
+	#software-margin {
+		margin-bottom: 220px;
+	}
+	#connectivity-paragraph p {
+		position: absolute;
+		top: 20%;
+		margin-left: -30px;
+		margin-right: 20px;
+	}
+	#resource-management {
+		position: absolute;
+		margin: 20px;
+		margin-top: 0px;
+		margin-left: -50%;
+		width: fit-content;
+		padding: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
+		top: 85%;
+		max-width: 400px;
+	}
+	/* ========================== From "Embedded Systems" ==========================*/
+	#smart-cars {
+		padding-top: 20px;
+	}
+	#mechanical-solution {
+		padding-top: 20px;
+		padding-bottom: 10px;
+	}
+	/* ========================== From "Electronic Design" ==========================*/
+	#pcb-routing {
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 30px;
+		top: 55%;
+		padding-bottom: 10px;
+	}
+	#electronic-card {
+		margin-left: -35%;
+		padding-top: 20px;
+		padding-bottom: 13px;
+		padding-left: 30px;
+	}
+	/* ========================== From "Software Development" ==========================*/
+	#resource-management {
+		top: 85%;
+		max-width: 400px;
+		padding-top: 20px;
+		padding-bottom: 10px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	#drivers-development {
+		right: -35%;
+		padding-top: 20px;
+		padding-bottom: 10px;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+}
+@media screen and (max-width:1024px) {
+	.tabet-capabilities-banner {
+		top: 49%;
+		padding-left: 17%;
+		padding-right: 19%;
+	}
+	#desk-capabilities {
+		display: none;
+	}
+	#tab-capabilities {
+		display: block;
+		padding-left: 7%;
+		padding-right: 7%;
+		margin-bottom: 170px;
+	}
+	#mobile-capabilities {
+		display: none;
+	}
+	.helyptic-Tab-Version-Heading h1 {
+		font-size: 60px;
+	}
+	.tabet-capabilities .col-lg-12 {
+		padding-left: 23.5%;
+		padding-right: 23.5%;
+	}
+	.tabet-capabilities .col-lg-12 h3 {
+		font-family: 'Open Sans', sans-serif;
+		font-size: 40px;
+		font-weight: 600;
+	}
+	.tabet-capabilities .col-lg-12 p {
+		font-family: 'Open Sans', sans-serif;
+		font-size: 18px;
+		font-weight: 400;
+		margin-top: 40px;
+	}
+	.col-xs-12 {
+		margin-top: 40px;
+	}
+	.col-xs-12 h5 {
+		font-size: 28px;
+	}
+	.col-xs-12 ul {
+		margin-top: 20px;
+		padding-right: 10px;
+	}
+	.col-xs-12 li {
+		font-family: 'Open Sans', sans-serif;
+		font-style: 400;
+		font-size: 16px;
+		line-height: 35px;
+		list-style: none;
+		color: black;
+	}
+	.col-xs-12 ul>li:before {
+		content: "";
+		height: 1.5rem;
+		width: 1.5rem;
+		display: block;
+		float: left;
+		margin-left: -2rem;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 100%;
+		font-size: 20px;
+	}
+	.col-xs-12 ul>li:before {
+		content: '\f054';
+		font-family: 'FontAwesome';
+		background-size: cover;
+		background-position: center;
+		padding: .15rem;
+		padding-right: 25px;
+		color: #114F87;
+		font-size: 20px;
+	}
+	.blue {
+		border-radius: 10px;
+		border: 1px solid rgba(255, 255, 255, 0.308);
+	}
+	.blue h5 {
+		color: #114F87;
+		font-size: 28px;
+	}
+	.Tab-Mechanical {
+		position: absolute;
+		background: linear-gradient(-208.12deg, #7394b09c 3.58%, #cbddecab 37.21%, #729bc996 81.71%);
+		backdrop-filter: blur(20px);
+		top: 20%;
+		left: 5%;
+		padding: 20px;
+		padding-bottom: 15px;
+		width: 340px;
+		z-index: 9999999;
+	}
+	.Tab-Smart-Cars {
+		position: absolute;
+		background: linear-gradient(-204.1deg, #7394b09c 8.28%, #cbddec9f 44.35%, #729bc99c 92.05%);
+		backdrop-filter: blur(20px);
+		top: -70%;
+		right: 10%;
+		padding: 20px;
+		padding-bottom: 15px;
+		width: 380px;
+		z-index: 9999999;
+	}
+	.Tab-PCB {
+		position: absolute;
+		background: linear-gradient(-203.86deg, #7394b0a1 6.84%, #cbddeca2 42.63%, #729bc9a1 89.96%);
+		backdrop-filter: blur(20px);
+		top: 10%;
+		padding: 20px;
+		padding-bottom: 15px;
+		width: 360px;
+		z-index: 9999999;
+	}
+	.Tab-Electronic-Card {
+		position: absolute;
+		background: linear-gradient(-208.12deg, #7394b09c 3.58%, #cbddecab 37.21%, #729bc996 81.71%);
+		backdrop-filter: blur(20px);
+		top: 15%;
+		padding: 20px;
+		padding-bottom: 15px;
+		width: 340px;
+		z-index: 9999999;
+		right: 12.4%;
+	}
+	.Tab-Drivers {
+		position: absolute;
+		background: linear-gradient(-208.12deg, #7394b09c 3.58%, #cbddecab 37.21%, #729bc996 81.71%);
+		backdrop-filter: blur(20px);
+		top: 8%;
+		padding: 20px;
+		padding-bottom: 15px;
+		width: 340px;
+		z-index: 9999999;
+	}
+	.Tab-Real-Time {
+		position: absolute;
+		background: linear-gradient(-204.1deg, #7394b09c 8.28%, #cbddec9f 44.35%, #729bc99c 92.05%);
+		backdrop-filter: blur(20px);
+		top: -60%;
+		right: 4%;
+		padding: 20px;
+		padding-bottom: 15px;
+		width: 380px;
+		z-index: 9999999;
+	}
+	#iot-three-points {
+		position: absolute;
+		top: 10%;
+		left: 20%;
+	}
+	#iot-three-points div {
+		position: relative;
+		width: 260px;
+		height: 75px;
+		background: linear-gradient(175.77deg, #85a5bebb 5.47%, #e5f3ff1f 44.89%, #b0c6dfc5 83.76%);
+		backdrop-filter: blur(20px);
+		border-radius: 10px;
+		margin: 20px;
+		left: 10%;
+		cursor: pointer;
+		border: 1px solid rgba(175, 227, 248, 0.308);
+		padding: 20px;
+		padding-left: 55px;
+		z-index: 99999999;
+	}
+	#iot-three-points div span {
+		font-size: 19px;
+	}
+	#iot-three-points div span i {
+		font-size: 32px;
+		top: 19px;
+		left: 30px;
+	}
+	.Tab-Connectivity {
+		position: absolute;
+		background: linear-gradient(-208.12deg, #7394b09c 3.58%, #cbddecab 37.21%, #729bc996 81.71%);
+		backdrop-filter: blur(20px);
+		top: 20%;
+		left: 17%;
+		padding: 20px;
+		padding-top: 4px;
+		padding-bottom: 7px;
+		width: 340px;
+		z-index: 9999999;
+	}
+	#sensors-points {
+		position: absolute;
+		top: -40%;
+		z-index: 999999999;
+		left: 0;
+	}
+	.Tab-Sensor-Points {
+		position: absolute;
+		right: 16%;
+		margin-top: -80%;
+	}
+	.Tab-Sensor-Points div {
+		position: relative;
+		padding: 8px;
+		padding-left: 20px;
+		background: red;
+		width: fit-content;
+		margin: 8px;
+		border-radius: 5px;
+		top: 1%;
+		background: rgba(255, 255, 255, 0.1);
+		backdrop-filter: blur(20px);
+		/* Note: backdrop-filter has minimal browser support */
+		border: 1px solid rgba(255, 255, 255, 0.253);
+	}
+	.Tab-Sensor-Points div span {
+		font-family: 'Open Sans', sans-serif;
+		color: black;
+		font-size: 18px;
+		padding: 10px;
+	}
+	.Tab-Sensor-Points div span i {
+		position: absolute;
+		color: #2A2A2B;
+		font-size: 24px;
+		top: 7px;
+		left: 15px;
+	}
+	.Tab-Data-Processing {
+		position: absolute;
+		background: linear-gradient(-208.12deg, #7394b09c 3.58%, #cbddecab 37.21%, #729bc996 81.71%);
+		backdrop-filter: blur(20px);
+		top: 6%;
+		right: 10%;
+		padding: 20px;
+		padding-top: 4px;
+		padding-bottom: 7px;
+		width: 340px;
+		z-index: 9999999;
+	}
+	#SoftwareDevelopment-tab {
+		display: none;
+	}
+	#ElectronicDesign-tab {
+		display: none;
+	}
+	#IOTConnectedObjects-tab {
+		display: none;
+	}
+	#DataProcessing-tab {
+		display: none;
+	}
+	#Connectivities-tab {
+		display: none;
+	}
+	#Sensors-tab {
+		display: none;
+	}
+	#DataProcessing {
+		display: none;
+	}
+}
+@media screen and (max-width:768px) {
+	#tab-capabilities {
+		display: block;
+		padding-left: 0%;
+		padding-right: 0%;
+	}
+	#mobile-capabilities {
+		display: none;
+	}
+	.tabet-capabilities-banner {
+		top: 43%;
+		padding-left: 6%;
+		padding-right: 8%;
+	}
+	.helyptic-Tab-Version-Heading h1 {
+		font-size: 60px;
+	}
+	.tabet-capabilities .col-lg-12 {
+		padding-left: 23.5%;
+		padding-right: 23.5%;
+	}
+	.tabet-capabilities .col-lg-12 h3 {
+		font-family: 'Open Sans', sans-serif;
+		font-size: 40px;
+		font-weight: 600;
+	}
+	.tabet-capabilities .col-lg-12 p {
+		font-family: 'Open Sans', sans-serif;
+		font-size: 18px;
+		font-weight: 400;
+		margin-top: 40px;
+	}
+	.col-xs-12 {
+		margin-top: 40px;
+	}
+	.col-xs-12 h5 {
+		font-size: 28px;
+	}
+	.col-xs-12 ul {
+		margin-top: 20px;
+		padding-right: 10px;
+	}
+	.col-xs-12 li {
+		font-family: 'Open Sans', sans-serif;
+		font-style: 400;
+		font-size: 16px;
+		line-height: 35px;
+		list-style: none;
+		color: black;
+	}
+	.col-xs-12 ul>li:before {
+		content: "";
+		height: 1.5rem;
+		width: 1.5rem;
+		display: block;
+		float: left;
+		margin-left: -2rem;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 100%;
+		font-size: 20px;
+	}
+	.col-xs-12 ul>li:before {
+		content: '\f054';
+		font-family: 'FontAwesome';
+		background-size: cover;
+		background-position: center;
+		padding: .15rem;
+		padding-right: 25px;
+		color: #114F87;
+		font-size: 20px;
+	}
+	.blue {
+		border-radius: 10px;
+		border: 1px solid rgba(255, 255, 255, 0.308);
+	}
+	.blue h5 {
+		color: #114F87;
+		font-size: 28px;
+	}
+	.Tab-Mechanical {
+		position: absolute;
+		background: linear-gradient(-208.12deg, #7394b09c 3.58%, #cbddecab 37.21%, #729bc996 81.71%);
+		backdrop-filter: blur(20px);
+		top: 20%;
+		padding: 20px;
+		padding-bottom: 15px;
+		width: 340px;
+		z-index: 9999999;
+	}
+	.Tab-Smart-Cars {
+		position: absolute;
+		background: linear-gradient(-204.1deg, #7394b09c 8.28%, #cbddec9f 44.35%, #729bc99c 92.05%);
+		backdrop-filter: blur(20px);
+		top: -50%;
+		right: 10%;
+		padding: 20px;
+		padding-bottom: 15px;
+		width: 380px;
+		z-index: 9999999;
+	}
+	.Tab-PCB {
+		position: absolute;
+		background: linear-gradient(-203.86deg, #7394b0a1 6.84%, #cbddeca2 42.63%, #729bc9a1 89.96%);
+		backdrop-filter: blur(20px);
+		top: 10%;
+		padding: 20px;
+		padding-bottom: 15px;
+		width: 360px;
+		z-index: 9999999;
+	}
+	.Tab-Electronic-Card {
+		position: absolute;
+		background: linear-gradient(-208.12deg, #7394b09c 3.58%, #cbddecab 37.21%, #729bc996 81.71%);
+		backdrop-filter: blur(20px);
+		top: 15%;
+		padding: 20px;
+		padding-bottom: 15px;
+		width: 340px;
+		z-index: 9999999;
+		right: 5.4%;
+	}
+	.Tab-Drivers {
+		position: absolute;
+		background: linear-gradient(-208.12deg, #7394b09c 3.58%, #cbddecab 37.21%, #729bc996 81.71%);
+		backdrop-filter: blur(20px);
+		top: 8%;
+		padding: 20px;
+		padding-bottom: 15px;
+		width: 340px;
+		z-index: 9999999;
+	}
+	.Tab-Real-Time {
+		position: absolute;
+		background: linear-gradient(-204.1deg, #7394b09c 8.28%, #cbddec9f 44.35%, #729bc99c 92.05%);
+		backdrop-filter: blur(20px);
+		top: -30%;
+		right: 4%;
+		padding: 20px;
+		padding-bottom: 15px;
+		width: 380px;
+		z-index: 9999999;
+	}
+	#iot-three-points {
+		position: absolute;
+		top: 10%;
+	}
+	#iot-three-points div {
+		position: relative;
+		width: 260px;
+		height: 75px;
+		background: linear-gradient(175.77deg, #85a5bebb 5.47%, #e5f3ff1f 44.89%, #b0c6dfc5 83.76%);
+		backdrop-filter: blur(20px);
+		border-radius: 10px;
+		margin: 20px;
+		left: 10%;
+		cursor: pointer;
+		border: 1px solid rgba(175, 227, 248, 0.308);
+		padding: 20px;
+		padding-left: 55px;
+		z-index: 99999999;
+	}
+	#iot-three-points div span {
+		font-size: 19px;
+	}
+	#iot-three-points div span i {
+		font-size: 32px;
+		top: 19px;
+		left: 30px;
+	}
+	.Tab-Connectivity {
+		position: absolute;
+		background: linear-gradient(-208.12deg, #7394b09c 3.58%, #cbddecab 37.21%, #729bc996 81.71%);
+		backdrop-filter: blur(20px);
+		top: 20%;
+		left: 10%;
+		padding: 20px;
+		padding-top: 4px;
+		padding-bottom: 7px;
+		width: 340px;
+		z-index: 9999999;
+	}
+	#sensors-points {
+		position: absolute;
+		top: -40%;
+		z-index: 999999999;
+		left: 0;
+	}
+	.Tab-Sensor-Points {
+		position: absolute;
+		right: 7%;
+		margin-top: -88%;
+	}
+	.Tab-Sensor-Points div {
+		position: relative;
+		padding: 8px;
+		padding-left: 20px;
+		background: red;
+		width: fit-content;
+		margin: 8px;
+		border-radius: 5px;
+		top: 1%;
+		background: rgba(255, 255, 255, 0.1);
+		backdrop-filter: blur(20px);
+		/* Note: backdrop-filter has minimal browser support */
+		border: 1px solid rgba(255, 255, 255, 0.253);
+	}
+	.Tab-Sensor-Points div span {
+		font-family: 'Open Sans', sans-serif;
+		color: black;
+		font-size: 18px;
+		padding: 10px;
+	}
+	.Tab-Sensor-Points div span i {
+		position: absolute;
+		color: #2A2A2B;
+		font-size: 24px;
+		top: 7px;
+		left: 15px;
+	}
+	.Tab-Data-Processing {
+		position: absolute;
+		background: linear-gradient(-208.12deg, #7394b09c 3.58%, #cbddecab 37.21%, #729bc996 81.71%);
+		backdrop-filter: blur(20px);
+		top: 0%;
+		right: 10%;
+		padding: 20px;
+		padding-top: 4px;
+		padding-bottom: 7px;
+		width: 340px;
+		z-index: 9999999;
+	}
+	.tabet-contact .fa {
+		font-size: 18px;
+	}
+}
+@media screen and (max-width:500px) {
+	#mobile-capabilities {
+		display: block;
+	}
+	#tab-capabilities {
+		display: none;
+	}
+	#mobile {
+		font-size: 33px;
+	}
+	.mobile-banner-capabilities {
+		background: rgba(255, 255, 255, 0.1);
+		backdrop-filter: blur(7px);
+		border-radius: 10px;
+		height: 260px;
+		margin-left: 5%;
+	}
+	.mobile-banner-capabilities img {
+		background: rgba(255, 255, 255, 0.1);
+		width: 88%;
+		margin-top: 6%;
+	}
+	.mobile-banner-capabilities span {
+		margin-left: 23px;
+		text-align: left;
+		color: white;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 16px;
+		line-height: 25px;
+		float: left;
+	}
+	.dir-cap {
+		margin-top: 0px;
+		margin-left: 5px;
+	}
+	.have-a-question {
+		margin-top: 50px;
+	}
+	.have-a-question h1 {
+		font-size: 32px;
+	}
+	.have-a-question p {
+		font-size: 20px;
+	}
+	.tabet-capabilities .col-lg-12 {
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+	.tabet-capabilities .col-lg-12 h3 {
+		font-family: 'Open Sans', sans-serif;
+		font-size: 40px;
+		font-weight: 600;
+	}
+	.tabet-capabilities .col-lg-12 p {
+		font-family: 'Open Sans', sans-serif;
+		font-size: 18px;
+		font-weight: 400;
+		margin-top: 40px;
+	}
+	#SoftwareDevelopment-mobile {
+		display: none;
+	}
+	#ElectronicDesign-mobile {
+		display: none;
+	}
+	#IOTConnectedObjects-mobile {
+		display: none;
+	}
+	#DataProcessing-mobile {
+		display: none;
+	}
+	#Connectivities-mobile {
+		display: none;
+	}
+	#Sensors-mobile {
+		display: none;
+	}
+	#DataProcessing {
+		display: none;
+	}
+	.Tab-Mechanical {
+		width: 100%;
+		margin: 0px;
+		position: relative;
+		background: linear-gradient(-208.12deg, #7393b067 3.58%, #cbddec5e 37.21%, #729bc9de 81.71%);
+		backdrop-filter: blur(20px);
+		margin-top: -20%;
+		left: 0%;
+		padding: 20px;
+		padding-bottom: 15px;
+		top: 0%;
+		z-index: 9999999;
+	}
+	.Tab-Smart-Cars {
+		width: 100%;
+		margin: 0px;
+		position: relative;
+		background: linear-gradient(-208.12deg, #7393b067 3.58%, #cbddec5e 37.21%, #729bc9de 81.71%);
+		backdrop-filter: blur(20px);
+		left: 0%;
+		top: 0%;
+		padding: 20px;
+		padding-bottom: 15px;
+		z-index: 9999999;
+	}
+	.Tab-PCB {
+		width: 92%;
+		margin: 15px;
+		position: relative;
+		background: linear-gradient(-208.12deg, #7393b067 3.58%, #cbddec5e 37.21%, #729bc9de 81.71%);
+		backdrop-filter: blur(20px);
+		margin-top: -30%;
+		left: 0%;
+		top: 0%;
+		padding: 20px;
+		padding-bottom: 15px;
+		z-index: 9999999;
+	}
+	.Tab-Electronic-Card {
+		width: 92%;
+		margin: 15px;
+		position: relative;
+		background: linear-gradient(-208.12deg, #7393b067 3.58%, #cbddec5e 37.21%, #729bc9de 81.71%);
+		backdrop-filter: blur(20px);
+		margin-top: -30%;
+		left: 0%;
+		top: 0%;
+		padding: 20px;
+		padding-bottom: 15px;
+		z-index: 9999999;
+	}
+	.Tab-Drivers {
+		width: 100%;
+		margin: 0px;
+		position: relative;
+		background: linear-gradient(-208.12deg, #7393b067 3.58%, #cbddec5e 37.21%, #729bc9de 81.71%);
+		backdrop-filter: blur(20px);
+		margin-top: -30%;
+		left: 0%;
+		top: 0%;
+		padding: 20px;
+		padding-bottom: 15px;
+		z-index: 9999999;
+	}
+	.Tab-Real-Time {
+		width: 100%;
+		margin: 0px;
+		position: relative;
+		background: linear-gradient(-208.12deg, #7393b067 3.58%, #cbddec5e 37.21%, #729bc9de 81.71%);
+		backdrop-filter: blur(20px);
+		left: 0%;
+		top: 0%;
+		padding: 20px;
+		padding-bottom: 15px;
+		z-index: 9999999;
+	}
+	#iot-three-points {
+		position: absolute;
+		top: 20%;
+		left: 0%;
+		margin-top: 17%;
+	}
+	#iot-three-points div {
+		position: relative;
+		width: 100%;
+		height: 67px;
+		background: linear-gradient(175.77deg, #85a5bebb 5.47%, #e5f3ff1f 44.89%, #b0c6dfc5 83.76%);
+		backdrop-filter: blur(20px);
+		border-radius: 10px;
+		margin: 10px;
+		margin-left: 0px;
+		left: 10%;
+		cursor: pointer;
+		border: 1px solid rgba(175, 227, 248, 0.308);
+		padding: 17px;
+		padding-left: 55px;
+		z-index: 99999999;
+	}
+	#iot-three-points div span {
+		font-size: 19px;
+		color: white;
+	}
+	#iot-three-points div span i {
+		font-size: 32px;
+		top: 15px;
+		left: 30px;
+		color: white;
+	}
+	.Tab-Connectivity {
+		width: 92%;
+		margin: 15px;
+		position: relative;
+		background: linear-gradient(-208.12deg, #7393b067 3.58%, #cbddec5e 37.21%, #729bc9de 81.71%);
+		backdrop-filter: blur(20px);
+		margin-top: -30%;
+		left: 0%;
+		top: 0%;
+		padding: 20px;
+		padding-bottom: 15px;
+		z-index: 9999999;
+	}
+	.Tab-Data-Processing {
+		width: 92%;
+		margin: 15px;
+		position: relative;
+		background: linear-gradient(-208.12deg, #7393b067 3.58%, #cbddec5e 37.21%, #729bc9de 81.71%);
+		backdrop-filter: blur(20px);
+		margin-top: -30%;
+		left: 0%;
+		top: 0%;
+		padding: 20px;
+		padding-bottom: 15px;
+		z-index: 9999999;
+	}
+	.Tab-Sensor-Points {
+		position: absolute;
+		left: 6%;
+		top: 0;
+		margin-top: -143%;
+	}
+	.Tab-Sensor-Points div {
+		position: relative;
+		padding: 5px;
+		padding-left: 20px;
+		background: red;
+		width: fit-content;
+		margin: 8px;
+		border-radius: 5px;
+		top: .5%;
+		margin-top: 3px;
+		background: rgba(255, 255, 255, 0.1);
+		backdrop-filter: blur(20px);
+		/* Note: backdrop-filter has minimal browser support */
+		border: 1px solid rgba(255, 255, 255, 0.253);
+	}
+	.Tab-Sensor-Points div span {
+		color: white;
+	}
+	.Tab-Sensor-Points div span i {
+		color: white;
+	}
+}
+@media screen and (min-height: 800px) {
+	.mobile-banner-capabilities {
+		height: 240px;
+	}
+}
+@media screen and (max-height: 680px) {
+	.mobile-banner-capabilities {
+		height: 240px;
+	}
+}
